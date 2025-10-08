@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content=width=device-width,initial-scale=1>
+        <meta name="" contant="">
+        <title>Colouring and styling in css</title>
+        <style>
+            body{
+                border: 2px solid black;
+                margin: auto;
+                padding: 20px;
+                height: 200px vw;
+            }
+            header{
+                text-align: center;
+                color: blueviolet;
+                background-color: gold;
+            }
+            h2{
+                font-size: xx-large;
+                border: 1px dotted black;
+                width: 300px;
+                background-color: mediumpurple;
+            }
+            h3{
+                font-size: x-large;
+                border-bottom: 2px solid black;
+                width: 150px;
+            }
+            .font{
+                font-size: large;
+                background-color: lightblue;
+            }
+            .time{
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            .Arial{
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .Courier{
+                font-family: 'Courier New', Courier, monospace;
+                
+            }
+            .pic1{
+                font-size: xx-small;
+            }
+            .pic2{
+                font-size: small;
+            }
+            .pic3{
+                font-size: medium;
+            }
+            .pic4{
+                font-size: large;
+            }
+            .pic5{
+                font-size: xx-large;
+            }
+            .light{
+                font-weight: lighter;
+            }
+            .regular{
+                font-weight: 400;
+            }
+            .semi{
+                font-weight: 600;
+            }
+            .bold{
+                font-weight: bold;
+            }
+            .text{
+                background-color: violet;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .uppercase{
+                text-transform: uppercase;
+
+            }
+            .muted{
+                color: rgb(7, 6, 6); opacity: 0.7;
+
+            }
+            .underline{
+                text-decoration: underline;
+            }
+            .struct{
+                content.text-decoration: line-through;
+            }
+            .high{
+                background-color: yellow
+            }
+            .text shadow{
+                text-shadow: 1px 1px 2px;
+
+            }
+            .solid{
+                background-color: blue;
+            }
+            .gradient{
+                background: linear-gradient(to right, blue, purple);
+            }
+            .image{
+                background-image: url(pic.jpg);
+            }
+            .none{
+                 background: transparent;
+            }
+            .brand { background: #0ae98c; } 
+    .accent { background: #4f07f8; } 
+    .muted { background: #6b7280; } 
+    .success { background: #fa8806; } 
+    .warning { background: #eb17c7; } 
+
+    .swatch {
+      display: block;
+      width: 200px;
+      height: 70px;
+      margin bottom;
+      border-radius: 2px;
+      border: 1px double black;
+    
+      text-align: center;
+      font-size: 14px;
+     
+      line-height: 56px;}
+      .color{
+        background-color: violet;
+      }
+      .pink{
+        color: rgb(245, 51, 3);
+        font-size: large;
+      }
+      .blue{
+        color: rgb(73, 3, 236);
+        font-size: large;
+      }
+      .green{
+        color: #07ec07;
+        font-size: large;
+      }
+        
+      
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>CSS Colors, Backgrounds, and Text Styling Examples</h1> 
+            </header>
+            <!--ABOUT FONTS-->
+            <h2>1.FONTS SECTION</h2>
+            <p>Under this part we are going to see types of font style , their size and weight.</p>
+            <section class="font">
+            <h3>Font families</h3>   
+            <p class="font1 time"><B>TIMES NEW ROMAN</B>-is a font used to style text just like how we choose handwriting styles a school.It gives Classic and formal text.</p>        
+            <p class="font1 Arial"><b>ARIAL,Sans-serif</b> is a font used to style clean,simple and easy to read.</p>
+            <p class="font1 Courier"><b>COURIER NEW</b>this means every letter takes the same width,
+just like typing on an old typewriter.</p>
+             <br><br>
+             <h3>Font Size</h3>
+             <p class="siz pic1"><b>EXTRA SMALL</b>-Used for footnotes, captions, or less important text. It saves space but should be readable.font-size: 10px;</p>
+             <P class="siz pic2"><b>SMALL</b>-Used for body text on mobile or compact layouts; gives a neat and modern look.font-size: 14px;</P>
+            <p class="siz pic3"><b>MEDIUM</b>-Default size for paragraph text on websites; easy to read and clear for most users.font-size: 16px;</p>
+            <p class="siz pic4"><b>LARGE</b>-Used for subheadings, highlighting important content, or section titles.font-size: 20px;</p>
+            <p class="siz pic4"><b>EXTRA LARGE</b>-Used for main headings or titles to grab attention and give structure to the page.font-size: 32px;</p>
+            <br><br>
+            <h3>Font weight</h3>
+            <p class="weight light"><b>LIGHT</b>-For soft, modern designs or subtitles — looks elegant and clean.300</p>
+            <P class="weight regular"><b>NORMAL(REGULAR)</b>-Default text weight — perfect for body paragraphs and general reading.400</P>
+            <p class="weight semi"><b>SEMI BOLD</b>-Ideal for subheadings or highlighted text — gives balance between normal and bold.600</p>
+            <p class="weight bold"><b>BOLD</b>-Used for main headings or to emphasize important words or buttons.700.</p>
+        </section>
+        <br><br>
+        <!--ABOUT TEXT-->
+        <h2>2.TEXT STYLE SECTION</h2>
+      <P> how your text looks or is presented — for example, whether it’s italic, bold, or uppercase.<BR>
+
+In simple words:
+Text style changes the appearance or decoration of text.</P>
+       <div class="text">
+        <p class="text uppercase"><b>Uppercase small label</b>-Converts all letters to uppercase — used for labels or headings.text-transform: uppercase; font-size: small;</p>
+        <p class="text muted"><b>Muted descriptive text</b>-Makes text look faded or less important — used for hints or descriptions.color: gray; opacity: 0.7;</p>
+        <p class="text underline"><b>Underlined link style </b>-Adds an underline to text — often used for links.text-decoration: underline;</p>
+        <p class="text struck"><b>Struck-through text</b>-Draws a line through text — used to show deleted or outdated content.text-decoration: line-through;</p>
+        <p class="text high"><b>Highlighted text</b>-Adds a background color to make the text stand out.background-color: yellow;</p>
+        <p class="text shadow"><b>Text with subtle shadow</b>-Adds a small shadow behind text for a soft 3D or glowing effect.text-shadow: 1px 1px 2px</p>
+
+       </div>
+       <br><br>
+       <!--ABOUT BACKGROUND-->
+       <h2>3.BACKGROUND</h2>
+       <P>In web design or styling, a background means
+ the area or color behind your text, image, or content.
+
+It’s what fills the space behind an element (like a page, box, or button).</P>
+
+<section class="font">
+  <p class="back solid"><b>Solid Color</b>-A single plain color — simple and clean.</p>
+   <p class="back gradient"><b>Gradient</b>-A smooth blend of two or more colors — gives a stylish look.</p>
+   <p class="back image"><b>image</b>-Uses a picture as the background.</p>
+   <p class="back pattern"><b>Pattern / Texture</b>-Repeats a small design to create a texture effect.</p>
+   <p class="back none"><b>Transparent / None</b>No color — allows the layer below to show through.</p>
+<br><br>
+   </section>
+<!--About colours-->
+<h2>4.Colours</h2>
+<p>Colouring means adding color to text, background, borders, or elements on a webpage to make it look attractive, clear, and readable.
+
+It helps users easily see what’s important and gives a beautiful design to your page.</p>
+
+     <div class="color">
+        <h3>box colouring</h3>
+        <p>Box colouring means adding background color or border color to a section, div, button, or container (box).
+It helps separate areas and make a design look attractive.</p>
+      <!-- Inline swatches — these are simple visual examples -->
+      <div class="swatch brand">Brand</div>
+      <div class="swatch accent">Accent</div>
+      <div class="swatch muted">Muted</div>
+      <div class="swatch success">Success</div>
+      <div class="swatch warning">Warning</div>
+      <br><br>
+      <h3>Sentence Colouring</h3>
+      <p>Sentence colouring means changing the text color itself — used to highlight important words, headings, or warning messages.</p>
+      <p class="pink">Makes the webpage beautiful and user-friendly</p>
+      <p class="blue">Shows importance or warning (like red for error, green for success)</p>
+      <p class="green">Matches the theme or brand of the website</p>
+    </div>
+ <footer style="font-size large; margin-top:20px; color: #4f07f8;">
+    <!-- Simple footer note -->
+     <h1 style="color: black;"    >    CONCLUSION</h1>
+    CSS provides a wide range of tools to style webpages effectively through colors, backgrounds, and text styles. By using proper text coloring, background designs, and font styles, we can make content more readable, attractive, and engaging for users. Understanding these concepts allows designers to create visually appealing webpages that enhance user experience while maintaining clarity and consistency. Overall, mastering these CSS styling techniques is essential for building modern, professional websites.
+  </footer>
+  
+
+
+    
+
+
+        </main>
+    </body>
+</html>
